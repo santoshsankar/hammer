@@ -1,0 +1,78 @@
+@import 'app/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 10px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.navbar-brand{
+  padding-top: 5px;
+}
+
+.jumbotron {
+  background-color: #9b9b9b; /*background-image:url('http://goo.gl/04j7Nn');*/
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.value-prop {
+  background-color: #f7f7f7;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.value-prop h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.value-prop a {
+  color: #00b0ff;
+}
+
+.sign-up {
+  margin-top: 50px;
+}
+
+html{
+  position: relative;
+  min-height:100%;
+}
+
+body{
+  margin-bottom: 60px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  padding-top: 16.667px;
+  width: 100%;
+  height: 50px;
+  background-color: #f7f7f7;
+}
